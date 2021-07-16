@@ -5,3 +5,11 @@
 <h1> Live Instance Preview</h1>
 <img src="https://media.discordapp.net/attachments/823301287550386226/865722918432145438/image0.png" />
 <img src="https://media.discordapp.net/attachments/823301287550386226/865722918813040680/image1.png" />
+<img src="https://media.discordapp.net/attachments/823301287550386226/865722919111098438/image2.png" />
+<hr width="90%">
+<h1>
+
+Don't forget to give me a star ⭐️ 
+Love You All ❤️ 
+
+</h1>
