@@ -9,7 +9,7 @@
 <hr width="90%">
 <h1>
 
-Don't forget to give me a star ⭐️ 
+Don't forget to give me a star ⭐️<br>
 Love You All ❤️ 
 
 </h1>
