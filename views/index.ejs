@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+		<title>Discord User Info</title>
+
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+		<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+		
+		<style>
+		    body{
+		        background-color: #2a2b2d;
+		    }
+
+
+.iseeyoufkyou{
+	background-color: #2b2f33;
+	border-color: #000;
+	border: 1px solid #000;
+	color: #fff;
+    border-radius: 4px;
+	text-align: left;
+	width: 100%;
+	height: 100%;
+    padding: 15px 0px;
+    box-sizing: border-box;
+	padding-left: 20px;
+	outline: none;
+}
+
+.iseeyoufkyou:focus{
+	border: 2px solid #fff;
+}
+
+		</style>
+	</head>
+    <body>
+<br>
+<br>
+		<center>
+			<div class="before-showing">
+				<h1 style="color: white">Type user ID</h1>
+				<br>
+				<form method="POST">
+				    
+
+			</div>
+			<br><br>
+			
+	<input class="iseeyoufkyou"  type="number" placeholder="User ID" name="rr" id="rr"/>
+
+
+	<button id="g" class="btn btn-outline-primary" onclick="user()">Find</button>
+				
+
+<br>
+<br>
+<br>
+			<script>
+			function user(){
+				var rr = document.getElementById("rr");
+				if(rr.value == ""){
+					Swal.fire({
+						icon: 'error',
+						text: 'Please type user ID'
+					})
+				}
+			}
+			</script>
+			
+
+			</div>    
+		</center>
+		
+		</form>
+		<br>
+		
+<footer style="color: white">
+    All CopyRight Go To <a href="https://discord.gg/gemWywatcb">BadBoy</a>
+    My <a href="https://www.mohammedabumadi.tk">Website</a>
+</footer>
+		</script>
+    </body>
