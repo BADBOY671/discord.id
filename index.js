@@ -12,9 +12,6 @@ const listener = app.listen("3000", () => { console.log("Your app is listening o
 
 
 
-let prefix = "+"
-
-
 app.use(express.static("public"));
 
 const e = require("express");
