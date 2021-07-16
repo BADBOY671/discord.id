@@ -64,4 +64,4 @@ function getID(source) {
     }
     return source;
 }
-client.login('NzcyNzM0NTY4NjgzOTI5NjMw.X5-_JQ.jBpqv61ncYMW-E9iVHNee-0qmPs')
+client.login('Your Discord Bot Token')
