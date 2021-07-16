@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Cairo&family=Manrope:wght@600&family=Monda&family=Montserrat&family=Roboto+Mono&family=Tajawal&display=swap&family=Nova+Flat&display=swap" rel="stylesheet">
+		<title>Discord User Info - <%=user.username%></title>
+		<link rel="stylesheet" href="/css/style.css">
+
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+		<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+	</head>
+	<style>
+	    body {
+	     background-color: #2a2b2d;
+	    }
+	    #gg{
+	        color: white;
+	    }
+	    
+	    		    
+
+
+
+
+	</style>
+	<body>
+			</div>
+		
+		
+		<br><br><br><br>
+		<div class="info">
+			<center>
+	<a href="/">
+	<button class="btn btn-outline-primary">search again</button>
+				</a>
+				<br><br>
+				<div id="gg">
+				    
+				
+				<div class="informations">
+					<br>
+					<img src="https://cdn.discordapp.com/avatars/<%=user.id%>/<%=user.avatar%>.webp" class="rounded-circle userimg">
+					<br><br>
+			<h3 class="user-name"><%=user.username%> </h3>
+					<br>
+
+	<h4 >Created At: <span class="type"><%=user.createdAt%></span></h4>
+		<h4 class="date-3">Bot?: 
+			<%=user.bot%>
+						
+					</h4>
+					</div>
+					<br>
+		<hr color="white" width="90%">
+					<br><br>
+				</div>
+
+				<br><br>
+				
+					<br>
+					<br>
+				
+			</center>
+		</div>
+				
+<footer style="color: white">
+    All CopyRight Go To <a href="https://discord.gg/gemWywatcb">BadBoy</a>
+    My <a href="https://www.mohammedabumadi.tk">Website</a>
+</footer>
+	</body>
+	</html>
